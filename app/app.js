@@ -74,7 +74,7 @@ define([
             webscene: "a104f40d27bb435982b5b09f6d7502ba",   // portal item ID of the webscene
             usagename: "UsageType",                             // usage attribute (string)
             floorname: "FloorLevel",                           // floor attribute (int)
-            OIDname: "OID",                            // objectid
+            OIDname: "OBJECTID",                            // objectid
             buildingIDname: "UID",                   // building attribute (int)
             areaname: "GFATotal",                           // area attribute (float)
             color: [                                        // color ramp for unique value renderer
