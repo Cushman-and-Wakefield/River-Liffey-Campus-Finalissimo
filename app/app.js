@@ -75,8 +75,8 @@ define([
             usagename: "LeaseType",                             // usage attribute (string)
             floorname: "Floor",                           // floor attribute (int)
             OIDname: "OBJECTID",                            // objectid
-            buildingIDname: "UID",                   // building attribute (int)
-            areaname: "GFATotal",                           // area attribute (float)
+            buildingIDname: "BuildId",                   // building attribute (int)
+            areaname: "RentTotal",                           // area attribute (float)
             color: [                                        // color ramp for unique value renderer
                     [178, 171, 210, 1],                     
                     [253, 174, 97, 1],
