@@ -72,8 +72,8 @@ define([
             name: "Demo",
             url: "https://esriireland.maps.arcgis.com",           // portal URL for config
             webscene: "04fafd6751d54f2fbdedd7b6f387c4df",   // portal item ID of the webscene
-            usagename: "UsageType",                             // usage attribute (string)
-            floorname: "FloorLevel",                           // floor attribute (int)
+            usagename: "LeaseType",                             // usage attribute (string)
+            floorname: "Floor",                           // floor attribute (int)
             OIDname: "OBJECTID",                            // objectid
             buildingIDname: "UID",                   // building attribute (int)
             areaname: "GFATotal",                           // area attribute (float)
