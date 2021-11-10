@@ -71,7 +71,7 @@ define([
         var settings_demo = {
             name: "Demo",
             url: "https://esriireland.maps.arcgis.com",           // portal URL for config
-            webscene: "7c5c0b4006a24f97b0b15806d0abda88",   // portal item ID of the webscene
+            webscene: "04fafd6751d54f2fbdedd7b6f387c4df",   // portal item ID of the webscene
             usagename: "UsageType",                             // usage attribute (string)
             floorname: "FloorLevel",                           // floor attribute (int)
             OIDname: "OBJECTID",                            // objectid
