@@ -69,14 +69,14 @@ define([
 
         // application settings
         var settings_demo = {
-            name: "Demo",
+            name: "Web Scene",
             url: "https://esriireland.maps.arcgis.com",           // portal URL for config
             webscene: "f9f2c3673de64cc08680c312aecf4635",   // portal item ID of the webscene
-            usagename: "LeaseType",                             // usage attribute (string)
+            usagename: "Lease",                             // usage attribute (string)
             floorname: "Floor",                           // floor attribute (int)
             OIDname: "OBJECTID",                            // objectid
             buildingIDname: "BuildId",                   // building attribute (int)
-            areaname: "RentTotal",                           // area attribute (float)
+            areaname: "LeaseArea",                           // area attribute (float)
             color: [                                        // color ramp for unique value renderer
                     [178, 171, 210, 1],                     
                     [253, 174, 97, 1],
@@ -152,7 +152,7 @@ define([
                 });
 
                 // create home button that leads back to welcome page
-                var home = domCtr.create("div", { className: "button", id: "homeButton", innerHTML: "Home" }, header);
+                var home = domCtr.create("div", { className: "button", id: "homeButton", innerHTML: "Cover Page" }, header);
 
                 on(home, "click", function () {
                     var URI = window.location.href;
@@ -197,7 +197,7 @@ define([
                             view: this.view,
                             state: {
                                 highlight: {
-                                    name: "city",
+                                    name: "Liffey Valley Campus",
                                     features: undefined
                                 },
                                 viz: {
