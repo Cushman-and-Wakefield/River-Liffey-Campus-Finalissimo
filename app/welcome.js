@@ -68,8 +68,8 @@ define([
                 domCtr.create("hr", { id: "welcomeLine", className: "animate-bottom", style: "width:300px" }, container);
                 domCtr.create("img", { id: "esri-logo", src: "img/Capture.PNG", style: "width:200px;height:48px", top: "65%", left: "35%" }, container);
 
-                domCtr.create("div", { id: "description1", innerHTML: "Phil Mc" }, container);
-                domCtr.create("div", { id: "description2", innerHTML: "Esri Ireland" }, container);
+                domCtr.create("div", { id: "description1", innerHTML: "Cushman & Wakefield" }, container);
+                domCtr.create("div", { id: "description2", innerHTML: "Liffey Valley Campus" }, container);
                 this.demoLink = domCtr.create("div", { id: "demo-link", innerHTML: "Demo" }, container);
 
             },
