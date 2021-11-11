@@ -71,7 +71,7 @@ define([
         var settings_demo = {
             name: "Demo",
             url: "https://esriireland.maps.arcgis.com",           // portal URL for config
-            webscene: "0cd034cb570040049f88014d9e83d893",   // portal item ID of the webscene
+            webscene: "f9f2c3673de64cc08680c312aecf4635",   // portal item ID of the webscene
             usagename: "LeaseType",                             // usage attribute (string)
             floorname: "Floor",                           // floor attribute (int)
             OIDname: "OBJECTID",                            // objectid
@@ -222,7 +222,7 @@ define([
 
             getSettingsFromUser: function (settings) {
                 if (settings === "demo"){
-                    dom.byId("headerTitle").innerHTML = "c-through Demo";
+                    dom.byId("headerTitle").innerHTML = "Cushman & Wakefield Prototype";
                     return settings_demo;
                 }
             }
