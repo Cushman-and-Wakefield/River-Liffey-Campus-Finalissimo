@@ -72,11 +72,11 @@ define([
             name: "Web Scene",
             url: "https://esriireland.maps.arcgis.com",           // portal URL for config
             webscene: "f9f2c3673de64cc08680c312aecf4635",   // portal item ID of the webscene
-            usagename: "Lease",                             // usage attribute (string)
+            usagename: "LeaseType",                             // usage attribute (string)
             floorname: "Floor",                           // floor attribute (int)
             OIDname: "OBJECTID",                            // objectid
             buildingIDname: "BuildId",                   // building attribute (int)
-            areaname: "LeaseArea",                           // area attribute (float)
+            areaname: "RentType",                           // area attribute (float)
             color: [                                        // color ramp for unique value renderer
                     [178, 171, 210, 1],                     
                     [253, 174, 97, 1],
