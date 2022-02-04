@@ -72,34 +72,30 @@ define([
             name: "Web Scene",
             url: "https://cwireland.maps.arcgis.com",           // portal URL for config
             webscene: "769dba86607e4662a9e28f2e02c305f6",   // portal item ID of the webscene
-            usagename: "Use_",                             // usage attribute (string)
-      
-            floorname: "Floor",                           // floor attribute (string)
-           
+            usagename: "Lease",                             // usage attribute (string)
+            floorname: "Floor",                           // floor attribute (int)
             OIDname: "OBJECTID",                            // objectid
-            buildingIDname: "BuildID",                   // pat of building attribute (int)
-           
-            areaname: "sq_m",                           // area attribute (float)
-            
+            buildingIDname: "BuildId",                   // building attribute (int)
+            areaname: "RentTotal",                           // area attribute (float)
             color: [                                        // color ramp for unique value renderer
-                    [251, 231, 137, 1],                     
-                    [226, 221, 140, 1],
-                    [201, 211, 143, 1],
-                    [176, 202, 147, 1],
-                    [151, 192, 150, 1],
-                    [126, 182, 153, 1],
-                    [101, 173, 157, 1],
-                    [76, 163, 160, 1],
-                    [51, 153, 163, 1],
-                    [27, 144, 167, 1],
-                    [35, 118, 159, 1],
-                    [46, 110, 159, 1],
-                    [28, 80, 119, 1],
-                    [22, 51, 74, 1],
-                    [23, 95, 128, 1],
-                    [32, 126, 171, 1],
-                    [30, 140, 168, 1],
-                    [60, 140, 182, 1]
+                    [178, 171, 210, 1],                     
+                    [253, 174, 97, 1],
+                    [50, 136, 189, 1],
+                    [102, 194, 165, 1],
+                    [230, 245, 152, 1],
+                    [213, 62, 79, 1],
+                    [94, 79, 162, 1],
+                    [254, 224, 139, 1],
+                    [253, 174, 97, 1],
+                    [135, 135, 135, 1],
+                    [255, 255, 153, 1],
+                    [185, 185, 185, 1],
+                    [171, 221, 164, 1],
+                    [202, 178, 214, 1],
+                    [251, 128, 114, 1],
+                    [214, 96, 77, 1],
+                    [209, 229, 240, 1],
+                    [254, 224, 182, 1]
                 ]
         };
 
