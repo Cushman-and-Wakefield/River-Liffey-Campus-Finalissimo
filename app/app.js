@@ -69,22 +69,18 @@ define([
 
         // application settings
         var settings_demo = {
-            name: "Liffey Campus",
+            name: "Web Scene",
             url: "https://cwireland.maps.arcgis.com",           // portal URL for config
             webscene: "769dba86607e4662a9e28f2e02c305f6",   // portal item ID of the webscene
             usagename: "Use_",                             // usage attribute (string)
-            tenancyname: "Tenant",                          // tenant names (string)
+      
             floorname: "Floor",                           // floor attribute (string)
-            statusname: "Status",                           // status attribute like let, vacant etc. (string)
-            leaseexpiryname: "Lease_Expiry_Year",                // lease expiry year attribute (int)
-            reviewdatename: "Next_Review_Date_Year",        //review date year attribute (int)
-            reviewtypename: "Review_Type",                  //review type attribute (string)
+           
             OIDname: "OBJECTID",                            // objectid
             buildingIDname: "BuildID",                   // pat of building attribute (int)
-            buildingname: "Building_No_",               // Whole Building Count (int)
+           
             areaname: "sq_m",                           // area attribute (float)
-            exactexpirydatename: "Lease_Expiry",        // whole lease expiry date for statistics part only (string)
-            exactreviewdatename: "Next_Review_Date1",    // whole review date for statistics part only (string)
+            
             color: [                                        // color ramp for unique value renderer
                     [251, 231, 137, 1],                     
                     [226, 221, 140, 1],
