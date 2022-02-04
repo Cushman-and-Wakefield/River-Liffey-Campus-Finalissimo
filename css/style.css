@@ -473,24 +473,6 @@ html, body {
   top: 35%;
 }
 
-#filter-leaseexpiry {
-  top: 100px;
-  left: 215px;
-  display: none;
-}
-
-#filter-reviewdate {
-  top: 100px;
-  left: 215px;
-  display: none;
-}
-
-#filter-reviewtype {
-  top: 100px;
-  left: 415px;
-  display:none;
-}
-
 #filterAreaMin{
     position: absolute;
     top: 60%;
